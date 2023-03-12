@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/crypto_creek/static/js/main.22a01156.js",
+    "static/media/btc.png": "/crypto_creek/static/media/btc.04101b0b163c035fa57e.png",
+    "static/media/IMG_20190930_115106381_HDR.jpg": "/crypto_creek/static/media/IMG_20190930_115106381_HDR.b3ac2f5bb2ff0a579210.jpg",
+    "index.html": "/crypto_creek/index.html",
+    "main.22a01156.js.map": "/crypto_creek/static/js/main.22a01156.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.22a01156.js"
+  ]
+}
