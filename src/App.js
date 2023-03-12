@@ -12,7 +12,7 @@ import CoinDetails from "./Component/CoinDetails"
 function App() {
   return (
     <>
-      <Router>
+      <Router basename='/crypto_creek'>
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />

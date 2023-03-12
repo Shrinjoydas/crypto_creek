@@ -12,9 +12,9 @@ function Navbar() {
       backgroundColor={'blackAlpha.900'}
       shadow={'base'}
       zIndex={10}
-      mx={['2','0']}
+      
     >
-      <HStack p={'4'} gap={'4'}>
+      <HStack p={'4'} gap={'4'} mx={['2','0']}>
         <Button variant={'unstyled'} color={'white'}>
           <Link to="/">Home</Link>
         </Button>
