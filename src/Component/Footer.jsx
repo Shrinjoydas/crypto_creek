@@ -9,7 +9,7 @@ function Footer() {
       color={'whiteAlpha.700'}
       minH={'48'}
       px={['16', '8']}
-      py={'16'}
+      py={'24'}
     >
       <Stack direction={['column', 'row']}>
         <VStack w={'full'} alignItems={['center', 'flex-start']} my={['0', '8']} >

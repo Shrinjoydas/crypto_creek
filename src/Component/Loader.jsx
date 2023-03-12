@@ -4,7 +4,7 @@ import React from 'react';
 function Loader() {
   return (
     <div>
-      <VStack justify={'center'} h={'80vh'}>
+      <VStack justify={'center'} h={'100vh'}>
         <CircularProgress
           size="160px"
           thickness="5px"
