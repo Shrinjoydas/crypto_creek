@@ -20,16 +20,9 @@ ChartJS.register(
 function Chart({ arr = [], currencylogo, days }) {
   const prices = [];
   const date = [];
-
-  // for (let i = 0; i < arr.length; i++) {
-  //   if (days === '24h') date.push(new Date(arr[i][0]).toLocaleTimeString());
-  //   else date.push(new Date(arr[i][0]).toLocaleDateString());
-  //   prices.push(arr[i][1]);
-  // }
-
+  
   arr.map ((i) => {
-    if (days === '24h') date.push(new Date(i[0]).toLocaleTimeString());
-    else date.push(new Date(i[0]).toLocaleDateString());
+   date.push(new Date(i[0]).toLocaleDateString();
     prices.push(i[1]);
 });
 
