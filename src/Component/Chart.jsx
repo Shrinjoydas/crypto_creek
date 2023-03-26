@@ -23,7 +23,7 @@ function Chart({ arr = [], currencylogo, days }) {
   
   arr.map ((i) => {
    date.push(new Date(i[0]).toLocaleDateString();
-    prices.push(i[1]);
+   prices.push(i[1]);
 });
 
     
